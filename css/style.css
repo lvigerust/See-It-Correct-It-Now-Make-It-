@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lexend Deca', 'PT sans', 'Open Sans', sans-serif;
+	background-color: #CED4DA;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #423A37;
+}
+
+/*START OF HEADER*/
+nav {
+	background-color: #FFFFFF;
+}
+.logo {
+	padding: 10px;
+	height: 110px;
+	width: 120px;
+	margin-left: auto;
+}
+.navbar {
+	display: inline-block;
+	float: right;
+	padding: 50px;
+}
+.navbar a {
+	font-size: 18px;
+	color: Black;
+}
+.navbar a:hover {
+	color: #A4161A;
+}
+.navbar a:active {
+	color: #A4161A;
+}
+.navbar td {
+	padding-right: 90px;
+}
+/*END OF HEADER*/
+
+
+/*START OF MAIN CONTENT*/
+.container {
+
+}
+.homepage-banner {
+	background-image: url("../images/homepagebanner2.png");
+	text-align: center;
+	height: 400px;
+}
+.homepage-banner a {
+	color: #A4161A;
+	font-size: 32px;
+}
+.homepage-information {
+	background-color: #A4161A;
+}
+.homepage-information a {
+	color: #FFFFFF;
+}
+.mission-container {
+	float: left;
+	padding: 20px;
+}
+.vision-container {
+	padding: 20px;
+}
+.news-container {
+	height: 200px;
+	width: 50%;
+	background-color: #9CC45C;
+}
+.announcements-container {
+	padding: 20px;
+	height: 200px;
+	width: 50%;
+	background-color: #FFFFFF;
+	float: left;
+}
+.news-container {
+	padding: 20px;
+	float: left;
+}
+.news-container a {
+	color: #FFFFFF;
+}
+.announcements-container a {
+	color: #423A37;
+}
+/*END OF MAIN CONTENT*/
+
+
+/*LARGE BROWSER*/
+@media (min-width: 992px) {
+
+}
+/*MEDIUM BROWSER/TABLET*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/*SMALL BROWSER/TABLET*/
+@media  (min-width: 480px) and (max-width: 767px) {
+
+}
+/*PHONE*/
+@media (max-width: 479px) {
+
+}
