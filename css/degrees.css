@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lexend Deca", "PT sans", "Open Sans", sans-serif;
+  background-color: #ced4da;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #423a37;
+}
+
+/*START OF HEADER*/
+nav {
+  background-color: #ffffff;
+}
+.logo {
+  padding: 10px;
+  height: 110px;
+  width: 120px;
+  margin-left: auto;
+}
+.navbar {
+  float: right;
+  padding: 50px;
+}
+.navbar a {
+  font-size: 18px;
+  color: Black;
+}
+.navbar a:hover {
+  color: #a4161a;
+}
+.navbar a:active {
+  color: #a4161a;
+}
+.navbar td {
+  padding-right: 90px;
+}
+
+/* DEGREES */
+
+section {
+  background-color: #457b9d;
+}
+
+.container {
+  width: 85%;
+  max-width: 65em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.degree-category {
+  padding: 1.5em;
+  margin: 1em;
+  background-color: #eee;
+  border-radius: 1em;
+}
+
+.primary-title {
+  font-size: 4rem;
+  font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
+  line-height: 1;
+  padding: 0.5em 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.section-title {
+  font-size: clamp(2.5rem, calc(5vw + 1rem), 3rem);
+  line-height: 1;
+}
+
+.degrees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em 0;
+  font-size: 1.125rem;
+}
+
+h4:hover,
+h4:focus {
+  color: #e63946;
+  cursor: pointer;
+}
