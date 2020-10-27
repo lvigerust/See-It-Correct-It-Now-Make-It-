@@ -1,5 +1,7 @@
 *{
 	box-sizing: border-box;
+	padding: 0;
+  margin: 0;
 }
 
 body{
@@ -24,7 +26,6 @@ nav {
 	margin-left: auto;
 }
 .navbar {
-	display: inline-block;
 	float: right;
 	padding: 50px;
 }
@@ -92,6 +93,19 @@ nav {
 .announcements-container a {
 	color: #423A37;
 }
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #A4161A;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 7px var(--light) inset;
+  }
 /*END OF MAIN CONTENT*/
 
 
