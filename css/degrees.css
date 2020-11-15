@@ -16,31 +16,47 @@ a {
 }
 
 /*START OF HEADER*/
-nav {
-  background-color: #ffffff;
+
+header {
+  background-color: #fff;
 }
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__list {
+  display: flex;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.nav__link {
+  color: black;
+}
+.nav__link:hover {
+  color: #a4161a;
+}
+
+.nav__item + .nav__item {
+  margin-left: 1em;
+}
+
 .logo {
-  padding: 10px;
-  height: 110px;
-  width: 120px;
-  margin-left: auto;
-}
-.navbar {
-  float: right;
-  padding: 50px;
-}
-.navbar a {
-  font-size: 18px;
-  color: Black;
-}
-.navbar a:hover {
-  color: #a4161a;
-}
-.navbar a:active {
-  color: #a4161a;
-}
-.navbar td {
-  padding-right: 90px;
+  max-width: 25%;
 }
 
 /* DEGREES */
